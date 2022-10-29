@@ -16,6 +16,10 @@
   --font-secondary: "Poppins", sans-serif;
 }
 
+.logo{
+  width: 225px;
+}
+
 /* Colors */
 :root {
   --color-default: #0a0d13;
