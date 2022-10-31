@@ -16,6 +16,12 @@
   --font-secondary: "Poppins", sans-serif;
 }
 
+.center-text{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
 .logo{
   width: 225px;
 }
@@ -23,7 +29,7 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #0d42ff;
+  --color-primary: #FF9D00;
   --color-secondary: #0e1d34;
 }
 
@@ -46,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: #406aff;
+  color: #FF9D18;
   text-decoration: none;
 }
 
@@ -390,7 +396,8 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #FF9D00;
+    font-weight: bold;
   }
 
   .navbar .dropdown ul {
@@ -845,7 +852,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/team_meeting.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1110,7 +1117,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/bannerFooter.webp") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
